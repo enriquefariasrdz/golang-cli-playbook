@@ -1,0 +1,8 @@
+--- FAIL: TestModule1CheckEnvGOOS (0.00s)
+    module1_test.go:17: 'go env' does not work as expected
+--- FAIL: TestModule1CheckEnvGOOSInJson (0.00s)
+    module1_test.go:27: it looks 'module1.json' is not correctly formatted as a JSON file
+    module1_test.go:32: your 'module1.json' does not include valid values that we check
+FAIL
+exit status 1
+FAIL	github.com/pluralsight-projects/golang-cli-playbook/module1	0.479s
