@@ -1,8 +1,34 @@
---- FAIL: TestModule1CheckEnvGOOS (0.00s)
-    module1_test.go:17: 'go env' does not work as expected
---- FAIL: TestModule1CheckEnvGOOSInJson (0.00s)
-    module1_test.go:27: it looks 'module1.json' is not correctly formatted as a JSON file
-    module1_test.go:32: your 'module1.json' does not include valid values that we check
-FAIL
-exit status 1
-FAIL	github.com/pluralsight-projects/golang-cli-playbook/module1	0.479s
+GO111MODULE=""
+GOARCH="amd64"
+GOBIN=""
+GOCACHE="/Users/enriquefarias/Library/Caches/go-build"
+GOENV="/Users/enriquefarias/Library/Application Support/go/env"
+GOEXE=""
+GOFLAGS=""
+GOHOSTARCH="amd64"
+GOHOSTOS="darwin"
+GOINSECURE=""
+GOMODCACHE="/Users/enriquefarias/go/pkg/mod"
+GONOPROXY=""
+GONOSUMDB=""
+GOOS="darwin"
+GOPATH="/Users/enriquefarias/go"
+GOPRIVATE=""
+GOPROXY="https://proxy.golang.org,direct"
+GOROOT="/usr/local/Cellar/go/1.15.5/libexec"
+GOSUMDB="sum.golang.org"
+GOTMPDIR=""
+GOTOOLDIR="/usr/local/Cellar/go/1.15.5/libexec/pkg/tool/darwin_amd64"
+GCCGO="gccgo"
+AR="ar"
+CC="clang"
+CXX="clang++"
+CGO_ENABLED="1"
+GOMOD="/Users/enriquefarias/golang-cli-playbook/go.mod"
+CGO_CFLAGS="-g -O2"
+CGO_CPPFLAGS=""
+CGO_CXXFLAGS="-g -O2"
+CGO_FFLAGS="-g -O2"
+CGO_LDFLAGS="-g -O2"
+PKG_CONFIG="pkg-config"
+GOGCCFLAGS="-fPIC -m64 -pthread -fno-caret-diagnostics -Qunused-arguments -fmessage-length=0 -fdebug-prefix-map=/var/folders/96/vnhssp_14rn8vzfyz4s222300000gn/T/go-build490105255=/tmp/go-build -gno-record-gcc-switches -fno-common"
